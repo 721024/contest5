@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="16" inline="true" x="-145" y="9">
+  <block type="controls_repeat" id="16" inline="true" x="-143" y="15">
     <value name="TIMES">
       <block type="math_number" id="29">
         <field name="NUM">30000</field>
@@ -32,38 +32,14 @@
               <block type="controls_repeat" id="187" inline="true">
                 <value name="TIMES">
                   <block type="math_number" id="194">
-                    <field name="NUM">1100000</field>
+                    <field name="NUM">9900000</field>
                   </block>
                 </value>
                 <statement name="DO">
                   <block type="movement_forward" id="225"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="232" inline="true">
-                    <value name="TIMES">
-                      <block type="math_number" id="239">
-                        <field name="NUM">30000</field>
-                      </block>
-                    </value>
-                    <statement name="DO">
-                      <block type="movement_forward" id="249"></block>
-                    </statement>
-                    <next>
-                      <block type="controls_repeat" id="266" inline="true">
-                        <value name="TIMES">
-                          <block type="math_number" id="283">
-                            <field name="NUM">10000</field>
-                          </block>
-                        </value>
-                        <statement name="DO">
-                          <block type="movement_forward" id="293"></block>
-                        </statement>
-                        <next>
-                          <block type="movement_stop" id="303"></block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="415"></block>
                 </next>
               </block>
             </next>

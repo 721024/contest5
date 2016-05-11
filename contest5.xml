@@ -6,7 +6,7 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_right" id="324"></block>
+      <block type="movement_right" id="405"></block>
     </statement>
     <next>
       <block type="controls_repeat" id="111" inline="true">
